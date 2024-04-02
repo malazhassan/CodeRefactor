@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box; /*Accounts for any border and padding values that are specified in the whole code's width and length*/
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+} /*Makes Main Page have a white background*/
+
+header {
+    padding: 20px; /*Used to position the elememts in the header by creating a space of 20 pixels all around in the border*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*Choosing the fonts for the heading title of the page*/
+    background-color: #2a607c;
+    color: #ffffff; /*Header elements possess a white colour*/
+}
+
+.header h1 {
+    display: inline-block; /*Displays elements within the h1 tag of the header adjacently*/
+    font-size: 48px; /*Specifies the font size of the element*/
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+nav{
+    padding-top: 15px; /*Specifically creates a 15 pixel space from the top for all nav elements inside the border*/
+    margin-right: 20px;/*Creates space of 20 pixels to the right of all nav elements regardless of borders*/
+    float: right; /*Makes elements float to the right of the container*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none; /*Removes list marker*/
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none; /*Removes automatic hyperlink underlining from elements containing links*/
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px; /*Height of Image*/
+    width: 100%; /*Width of Image*/
+    margin-bottom: 25px; /*Creates a 25 pixel space between the bottom of the container for elements regardless of broders*/
+    background-image: url("assets/images/MEETING.jpg"); /*Utilises image for background of specific class*/
+    background-size: cover; /*Specifies for background to be fully covered*/
+    background-position: center; /*Indicates the background image should be centered*/
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.aside .benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.aside .benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.aside .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.aside .benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.aside .benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.aside .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100px; /*Limits the image's height to 100 pixels*/
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px; /*Limits the images height to 200 pixels*/
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px; 
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+footer {
+    padding: 30px;
+    clear: both; /*Footer is pushed below both left and right floated elements*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center; /*Aligns text to the center*/
+}
+
+footer h2 {
+    font-size: 20px;
+}
